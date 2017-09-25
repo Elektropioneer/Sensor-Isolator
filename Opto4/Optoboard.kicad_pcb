@@ -5,7 +5,7 @@
     (no_connects 1)
     (area 158.924999 90.924999 227.075001 126.075001)
     (thickness 1.6)
-    (drawings 29)
+    (drawings 30)
     (tracks 151)
     (zones 0)
     (modules 41)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
@@ -1334,12 +1334,12 @@
     )
   )
 
-  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C8CE6A) (tstamp 59C8C3AD)
+  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C9549F) (tstamp 59C8C3AD)
     (at 217.5 108.5 90)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /59C8B84D)
-    (fp_text reference U1 (at 3.75 4 180) (layer F.SilkS)
+    (fp_text reference U1-6N135 (at 3.75 4.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 6N135 (at 3.81 9.95 90) (layer F.Fab) hide
@@ -1383,12 +1383,12 @@
     )
   )
 
-  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C8CE68) (tstamp 59C8C3C9)
+  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C9549C) (tstamp 59C8C3C9)
     (at 206 108.5 90)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /59C95B88)
-    (fp_text reference U2 (at 3.75 3.5 180) (layer F.SilkS)
+    (fp_text reference U2-6N135 (at 3.75 4.25 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 6N135 (at 3.81 9.95 90) (layer F.Fab) hide
@@ -1432,12 +1432,12 @@
     )
   )
 
-  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C8CE65) (tstamp 59C8C3E5)
+  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C954A8) (tstamp 59C8C3E5)
     (at 194.5 108.5 90)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /59C95703)
-    (fp_text reference U3 (at 3.75 3.5 180) (layer F.SilkS)
+    (fp_text reference U3-6N135 (at 3.75 4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 6N135 (at 3.81 9.95 90) (layer F.Fab) hide
@@ -1481,12 +1481,12 @@
     )
   )
 
-  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C8CE63) (tstamp 59C8C401)
+  (module Housings_DIP:DIP-8_W7.62mm (layer F.Cu) (tedit 59C954B2) (tstamp 59C8C401)
     (at 183 108.5 90)
     (descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
     (path /59C95BE5)
-    (fp_text reference U4 (at 3.75 3.5 180) (layer F.SilkS)
+    (fp_text reference U4-6N135 (at 3.75 4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 6N135 (at 3.81 9.95 90) (layer F.Fab) hide
@@ -1816,6 +1816,9 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Elektropioneer\ngithub.com/Elektropioneer" (at 182.5 95.25) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left))
+  )
   (gr_line (start 227 91) (end 227 91.5) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 159 91) (end 227 91) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 159 91.5) (end 159 91) (angle 90) (layer Edge.Cuts) (width 0.15))
@@ -1943,7 +1946,7 @@
   (segment (start 206 118.58) (end 207.42 120) (width 0.5) (layer F.Cu) (net 4) (tstamp 59C8E96E))
   (segment (start 217.2 114.95) (end 217.2 118.53) (width 0.5) (layer F.Cu) (net 4))
   (segment (start 217.2 118.53) (end 218.67 120) (width 0.5) (layer F.Cu) (net 4) (tstamp 59C8E95C))
-  (segment (start 209.4 94.6) (end 209.4 93.4) (width 0.5) (layer F.Cu) (net 5) (status 400000))
+  (segment (start 209.4 94.6) (end 209.4 93.4) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 208 92) (end 180.5 92) (width 0.5) (layer F.Cu) (net 5) (tstamp 59C8F194))
   (segment (start 209.4 93.4) (end 208 92) (width 0.5) (layer F.Cu) (net 5) (tstamp 59C8F193))
   (segment (start 179.45 95.47) (end 179.45 93) (width 0.5) (layer F.Cu) (net 5))
