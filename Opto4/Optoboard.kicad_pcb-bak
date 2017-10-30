@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -1634,7 +1634,7 @@
     (effects (font (size 2 2) (thickness 0.3)))
   )
 
-  (segment (start 177.36 99.06) (end 177.36 102.8274) (width 1) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 177.36 99.06) (end 177.36 102.8274) (width 1) (layer F.Cu) (net 1))
   (via (at 177.3428 102.8446) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 177.36 102.8274) (end 177.3428 102.8446) (width 1) (layer F.Cu) (net 1) (tstamp 59F77885))
   (segment (start 225.0948 114.8356) (end 225.0948 118.4656) (width 1) (layer F.Cu) (net 1))
