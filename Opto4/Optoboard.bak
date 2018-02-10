@@ -64,7 +64,7 @@ U 1 1 59C8BBA9
 P 7900 1100
 F 0 "12V_IN1" H 7750 1200 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" V 8000 1000 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight" H 7900 1100 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7900 1100 50  0001 C CNN
 F 3 "" H 7900 1100 50  0001 C CNN
 	1    7900 1100
 	1    0    0    -1  

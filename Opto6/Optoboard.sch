@@ -39,7 +39,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Opto isolator board for festo sensors"
-Date "2017-09-30"
+Date "2018-02-10"
 Rev "1"
 Comp "Electropioneer"
 Comment1 ""
@@ -793,8 +793,6 @@ $EndComp
 Wire Wire Line
 	5900 900  5900 850 
 Wire Notes Line
-	5200 500  5200 7800
-Wire Notes Line
 	5200 2050 8250 2050
 Wire Notes Line
 	6550 500  6550 3750
@@ -1232,8 +1230,6 @@ Wire Wire Line
 	5800 2600 5800 2550
 Wire Wire Line
 	5800 2450 5800 2400
-Text Notes 600  5900 0    118  ~ 0
-P2 is a jumper which if you enable and have 3V3 \non it, it will act as the powersupply for 3V3 logic
 $Comp
 L +3.3V #PWR32
 U 1 1 5A5F3F44
@@ -1348,4 +1344,6 @@ Wire Wire Line
 	6750 2650 6800 2650
 Wire Wire Line
 	6750 2650 6750 2600
+Wire Notes Line
+	5200 5450 5200 500 
 $EndSCHEMATC

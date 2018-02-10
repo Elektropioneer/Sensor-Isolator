@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Opto isolator board for festo sensors"
-Date "2017-09-30"
-Rev "1"
+Date "2018-02-10"
+Rev "1.1"
 Comp "Electropioneer"
 Comment1 ""
 Comment2 ""

@@ -1,4 +1,4 @@
-update=среда, 17. јануар 2018. 11:59:08 CET
+update=субота, 10. фебруар 2018. 20:32:49 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -72,3 +62,13 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
